@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            width: 75%;
+            height: 300px;
+
+            margin: auto;
+            font-size: 20px;
+            margin-top: 60px;
+            background-color: #f5f5f5;
+        }
+
+        #container>div {
+            width: 50%;
+            margin-left: 120px;
+            padding-top: 80px;
+        }
+
+        #container>div p {
+            font-size: 20px;
+        }
+
+        #container>div h1 {
+            font-size: 40px;
+
+        }
+
+        #products {
+            width: 75%;
+            margin: auto;
+            font-size: 20px;
+            margin-top: 60px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+
+        }
+
+        #products>div {
+            width: 88%;
+            padding: 20px;
+            height: 800px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+
+        #products>div>div>img {
+            width: 100%;
+            padding-left: 20px;
+            max-height: 380px;
+        }
+        
+        
+
+        #products>div>button {
+            width: 330px;
+            height: 40px;
+            margin: auto;
+            display: block;
+            font-size: 20px;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            border-radius: 5px;
+            background-color: transparent;
+
+        }
+        #products>div>div{
+            height: 550px;
+         } 
+        
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div>
+            <h1>Best Sellers</h1>
+            <p>Shop our fan favorites. We’ve got a full range of skincare products including cleansers,
+                creams, serums + more. All created with dermatology-inspired formulas to address your skin concerns.
+                Experience the transformative results + get the best skin of your life.</p>
+        </div>
+    </div>
+    <div id="products">
+    </div>
+</body>
+
+</html>
+<script src="./seller.js"></script>
