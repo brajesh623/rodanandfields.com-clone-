@@ -4,8 +4,6 @@ body{
     font-family: ProximaNovaMedium,Arial,Sans-Serif;;
 }
 #mainnav{
-   
-   
     height: 120px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
@@ -98,4 +96,57 @@ align-items: center;
     color:black;
     margin-left: 10px;
    
+}
+#skin{
+   width: 100%;
+   height: 600px;
+
+    background-image: url("https://www.rodanandfields.com/en-us/medias/22-Regimen-Collage-HP-Banner-72.jpg?context=bWFzdGVyfHJvb3R8Njc0MDM5fGltYWdlL2pwZWd8aDJkL2gyMy8xNTQwNjc0NzY0ODAzMC5qcGd8OWYyY2ZlYjk4NjNjZjhlNzhmNTQ2M2NjMzgxNzg4YTIzZDdmOTlkNjUyOTIzM2QzNDYxNDdhZGJkNzU2MTEzYg");
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+#skinm{
+    width: 345px;
+    height: 500px;
+    font-weight: lighter;
+    margin-left: 5%;
+    border:  0.1px solid #f7f6f2;
+    font-family:  Arial, sans-serif;
+    
+}
+#skinm>h2{
+    margin-top: 20%;
+    font-weight: 400;
+}
+#skinm>h3{
+    font-weight: 300;
+    margin-top: 10%;
+}
+#skinm>p{
+    font-weight: 200;
+    margin-top: 10%;
+}
+#skinm>button{
+    width: 300px;
+    background-color: white;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    margin-left: 3%;
+    margin-top: 18%;
+    border-radius: 8px;
+}
+#anchortag{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#anchortag>a{
+    margin-top: 10px;
+    color: black;
+   margin-left: 90%;
+}
+#shopbestsellr{
+    width: 100%;
+    height: 600px;
+    border: 1px solid teal;
 }
