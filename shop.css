@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+#s-r{
+    display: grid;
+    grid-template-columns: 45vw 55vw;
+    grid-template-rows: 45vh;
+}
+img{
+    width: 100%;
+    height: 215px;
+}
+#s-r>div:last-child>h1{
+    margin-bottom: -45px;
+    color: #222222;
+    font-weight: lighter;
+}
+#s-r>div:last-child>div{
+    font-size: 18px;
+}
+#s-r>div:last-child{
+    padding: 30px;
+    display: grid;
+    align-items: center;
+    background-color: #FAF6F5;
+}
+#Regimen,#Regimen_Bundles{
+    padding: 20px;
+}
+#Regimen>div:first-child,#Regimen_Bundles>div:first-child{
+    font-size: 24px;
+}
+#Regimen>div:last-child,#Regimen_Bundles>div:last-child{
+    font-size: 19px;
+}
+#Regimen_products,#Regimen_bundle_products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+}
+#Regimen_products p, #Regimen_bundle_products p{
+    font-size: 15px;
+}
+button{
+    margin-top: 10px;
+    width: 100%;
+    background-color: transparent;
+    height: 40px;
+    border-radius: 5px;
+}
+
+

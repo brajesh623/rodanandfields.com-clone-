@@ -4,44 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./shop.css">
     <title>Shop</title>
-    <style>
-        *{
-            margin: 0;
-        }
-        #s-r{
-            display: grid;
-            grid-template-columns: 45vw 55vw;
-            grid-template-rows: 45vh;
-        }
-        #s-r>div:first-child>img{
-            width: 100%;
-            height: 100%;
-        }
-        #s-r>div:last-child>h1{
-            margin-bottom: -45px;
-            color: #222222;
-            font-weight: lighter;
-        }
-        #s-r>div:last-child>div{
-            font-size: 18px;
-        }
-        #s-r>div:last-child{
-            padding: 30px;
-            display: grid;
-            align-items: center;
-            background-color: #FAF6F5;
-        }
-        #Regimen{
-            padding: 20px;
-        }
-        #Regimen>div:first-child{
-            font-size: 24px;
-        }
-        #Regimen>div:last-child{
-            font-size: 19px;
-        }
-    </style>
 </head>
 <body>
     <div id="s-r">
@@ -56,6 +20,13 @@
     <div id="Regimen">
         <div>Regimen</div>
         <div>Our skincare routines are made easy with our unique Multi-Med Therapy, providing the right ingredients, in the right formulas, in the right order.</div>
+        <div id="Regimen_products"></div>
+    </div>
+    <div id="Regimen_Bundles">
+        <div>Regimen Bundles</div>
+        <div>Boost your skincare routine + your budget with our value sets for skin, lashes, pore cleansing + more.</div>
+        <div id="Regimen_bundle_products"></div>
     </div>
 </body>
 </html>
+<script src="./shop.js" type="module"></script>
