@@ -149,12 +149,8 @@ function dispalyproduct(data) {
       addtobagstorage.push(el)
       localStorage.setItem("Userbag", JSON.stringify(addtobagstorage))
     })
-
-    detailsContainer.append(image, label, caption, description, price,)
-
-
+detailsContainer.append(image, label, caption, description, price,)
     div.append(detailsContainer, addtobag)
-
     document.getElementById("products").append(div)
 
   })
