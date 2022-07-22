@@ -1,3 +1,7 @@
+// import {mainnavbar,footer,lastbar} from './dashboard.js';
+// document.getElementById('nav').innerHTML=mainnavbar();
+// document.getElementById('footer').innerHTML=footer();
+// document.getElementById('lastbar').innerHTML=lastbar();
 
 let Regimen_products=document.getElementById('Regimen_products');
 
@@ -81,7 +85,9 @@ Regimen.forEach((el)=>{
     let button=document.createElement("button");
     button.innerText="ADD TO BAG"
     button.addEventListener("click",()=>{
-        cart();
+        let addtobagstorage = JSON.parse(localStorage.getItem("Userbag")) || [];    
+        addtobagstorage.push(el);
+        localStorage.setItem("Userbag", JSON.stringify(addtobagstorage));
     })
     div.append(img,p1,h,p2,p3,p4,button);
     Regimen_products.append(div);
@@ -232,7 +238,9 @@ Regimen_Bundle.forEach((el)=>{
     let button=document.createElement("button");
     button.innerText="ADD TO BAG"
     button.addEventListener("click",()=>{
-        cart();
+        let addtobagstorage = JSON.parse(localStorage.getItem("Userbag")) || [];    
+        addtobagstorage.push(el);
+        localStorage.setItem("Userbag", JSON.stringify(addtobagstorage));
     })
     div.append(img,h,p2,p3,button);
     Regimen_bundle_products.append(div);
