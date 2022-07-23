@@ -1,0 +1,80 @@
+#main{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+#main h1 {
+    font-weight: lighter;
+}
+
+#main2{
+    width:80%;
+    height:400px;
+    border:1px solid teal;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+#main2 > div {
+    width:48%;
+    height:400px;
+    border:1px solid yellow;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    
+}
+
+#main2 > div > h1 {<html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Find A Skincare Consultant | Rodan + Fields®</title>
+      <link
+        rel="shortcut icon"
+        href="https://tse2.mm.bing.net/th?id=OIP.5hd-hr1FSYNnlflOq_sbygHaHa&pid=Api&P=0"
+        type="image/x-icon"
+      />
+      <link rel="stylesheet" href="consultant.css" />
+    </head>
+    <body>
+      <div id="main">
+        <h1>CONNECT WITH A CONSULTANT</h1>
+        <p>
+          R+F Independent Consultants give you one-on-one guidance for a
+          personalized experience.
+        </p>
+        <p>Connect with a Consultant today.</p>
+      </div>
+  
+      <div id="main2">
+          <div>
+              <h1>I KNOW A CONSULTANT</h1>
+              <p>Search for an R+F Consultant by entering their name or<br> Consultant ID number.</p>
+              <button>SEARCH</button>
+          </div>
+          <div>
+              <h1>MATCH ME WITH A CONSULTANT</h1>
+              <p>Enter your location details to be matched with an R+F<br> Consultant that serves your area.</p>
+              <button>NEXT</button>
+          </div>
+      </div>
+    </body>
+  </html>
+  
+    margin-top: 50px;
+}
+
+#main2 > div > button {
+    background-color: black;
+    color: white;
+    padding: 10px 180px;
+
+}
+
+#main2 > :nth-child(2) > button {
+    background-color: white;
+    color:black;
+}
