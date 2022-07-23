@@ -1,25 +1,29 @@
-body{
+body {
     margin: 0%;
     padding: 0px;
-    font-family: ProximaNovaMedium,Arial,Sans-Serif;
+    font-family: ProximaNovaMedium, Arial, Sans-Serif;
 }
-#mainnav{
+
+#mainnav {
     height: 120px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
-#navbar{
+
+#navbar {
     margin: auto;
     width: 98%;
     display: flex;
     justify-content: space-between;
     height: 60px;
 }
-#navsp>img{
+
+#navsp>img {
     width: 15px;
     height: 15px;
     align-items: center;
 }
-#navbarend{
+
+#navbarend {
     width: 250px;
     display: flex;
     margin-top: 10px;
@@ -27,106 +31,125 @@ body{
     justify-content: space-between;
     text-decoration: none;
 }
-#navbarend>div{
+
+#navbarend>div {
     align-items: center;
 }
-#navbarend>div>a{
-text-decoration: none;  
-color: black;
-align-items: center;
+
+#navbarend>div>a {
+    text-decoration: none;
+    color: black;
+    align-items: center;
 
 }
-#navbarsecond{
+
+#navbarsecond {
     display: flex;
     width: 70%;
     margin: auto;
     text-decoration: none;
 }
-#navbarsecond>a{
+
+#navbarsecond>a {
     text-decoration: none;
-    color:black;
+    color: black;
     margin: auto;
 }
-#footer{
+
+#footer {
     display: flex;
     font-size: medium;
 
 }
 
-#onef{
+#onef {
     width: 20%;
     margin-left: 20px;
 }
-#onef>div{
+
+#onef>div {
     margin-top: 12px;
     gap: 20px;
 }
-#onef>div>a{
+
+#onef>div>a {
     text-decoration: none;
-    color:black;
-   
-    
-    
+    color: black;
+
+
+
 }
-#secf>div{
+
+#secf>div {
     margin-top: 12px;
     gap: 20px;
 }
-#secf{
+
+#secf {
     width: 20%;
     margin-left: 20px;
 }
-#secf>div>a{
+
+#secf>div>a {
     text-decoration: none;
-    color:black;
-   
-    
-    
+    color: black;
+
+
+
 }
-#thrf{
+
+#thrf {
     width: 60%;
 }
-#fimg>img{
+
+#fimg>img {
     width: 40px;
     height: 40px;
     margin-left: 30px;
 }
-#lastbar>a{
+
+#lastbar>a {
     text-decoration: none;
-    color:black;
+    color: black;
     margin-left: 10px;
-   
+
 }
-#skin{
-   width: 100%;
-   height: 600px;
+
+#skin {
+    width: 100%;
+    height: 600px;
 
     background-image: url("https://www.rodanandfields.com/en-us/medias/22-Regimen-Collage-HP-Banner-72.jpg?context=bWFzdGVyfHJvb3R8Njc0MDM5fGltYWdlL2pwZWd8aDJkL2gyMy8xNTQwNjc0NzY0ODAzMC5qcGd8OWYyY2ZlYjk4NjNjZjhlNzhmNTQ2M2NjMzgxNzg4YTIzZDdmOTlkNjUyOTIzM2QzNDYxNDdhZGJkNzU2MTEzYg");
-    background-size:100%;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
-#skinm{
+
+#skinm {
     width: 345px;
     height: 500px;
     font-weight: lighter;
     margin-left: 5%;
-    border:  0.1px solid #f7f6f2;
-    font-family:  Arial, sans-serif;
-    
+    border: 0.1px solid #f7f6f2;
+    font-family: Arial, sans-serif;
+
 }
-#skinm>h2{
+
+#skinm>h2 {
     margin-top: 20%;
     font-weight: 400;
 }
-#skinm>h3{
+
+#skinm>h3 {
     font-weight: 300;
     margin-top: 10%;
 }
-#skinm>p{
+
+#skinm>p {
     font-weight: 200;
     margin-top: 10%;
 }
-#skinm>button{
+
+#skinm>button {
     width: 300px;
     background-color: white;
     height: 40px;
@@ -136,23 +159,27 @@ align-items: center;
     margin-top: 18%;
     border-radius: 8px;
 }
-#anchortag{
+
+#anchortag {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-#anchortag>a{
+
+#anchortag>a {
     margin-top: 10px;
     color: black;
-   margin-left: 90%;
+    margin-left: 90%;
 }
-#shopbestsellr{
+
+#shopbestsellr {
     width: 100%;
     height: 600px;
     display: flex;
-    background-color: rgb(247,246,242);
+    background-color: rgb(247, 246, 242);
     overflow: scroll;
 }
-#shopbestsellr>div{
+
+#shopbestsellr>div {
     width: 300px;
     margin-left: 20px;
     height: 520px;
@@ -160,28 +187,34 @@ align-items: center;
     margin-top: 2%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
-#shopbestsellr>div>img{
+
+#shopbestsellr>div>img {
     width: 300px;
     height: 230px;
 }
-#shopbestsellr>div>p{
+
+#shopbestsellr>div>p {
     height: 40px;
     margin-left: 10px;
 }
-#shopbestsellr>div>h4{
+
+#shopbestsellr>div>h4 {
     height: 20px;
     margin-left: 10px;
 }
-#shopbestsellr>div>p:first-child{
+
+#shopbestsellr>div>p:first-child {
     height: 10px;
     margin-left: 60%;
 }
-#shopbestsellr>div>h5{
-   margin-left: 10px;
+
+#shopbestsellr>div>h5 {
+    margin-left: 10px;
     font-weight: normal;
     margin-top: -5%;
 }
-#shopbestsellr>div>button{
+
+#shopbestsellr>div>button {
     margin-left: 18%;
     background-color: transparent;
     width: 200px;
@@ -191,11 +224,13 @@ align-items: center;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     border-radius: 10px;
 }
-#Dreminspired{
-    background-color:  rgb(247,246,242);
+
+#Dreminspired {
+    background-color: rgb(247, 246, 242);
     height: 450px;
 }
-#Dreminspired>button{
+
+#Dreminspired>button {
     margin: auto;
     width: 300px;
     height: 40px;
@@ -205,24 +240,26 @@ align-items: center;
     margin-left: 40%;
     margin-top: 20px;
     cursor: pointer;
-    
+
 }
-#Dreminspired>h1{
+
+#Dreminspired>h1 {
     margin: auto;
     align-items: center;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 
-  margin-top: 40px;
+    margin-top: 40px;
     width: 500px;
     font-weight: 400;
     color: #222;
     line-height: 1.27;
     letter-spacing: 1px;
-    
+
     text-transform: none;
 }
-#Dremin{
+
+#Dremin {
     display: flex;
     margin: auto;
     width: 80%;
@@ -231,7 +268,8 @@ align-items: center;
 
 
 }
-.card{
+
+.card {
     margin-left: 20px;
     border-radius: 10px;
     background-color: white;
@@ -239,11 +277,12 @@ align-items: center;
     position: relative;
     display: inline-block;
 }
-.card>img{
- width: 200px;
- height: 200px;
- border-radius: 10px;
-   
+
+.card>img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+
 }
 
 .card .img-top {
@@ -255,51 +294,125 @@ align-items: center;
     left: 0;
     z-index: 99;
 }
+
 .card:hover .img-top {
     display: inline;
 }
-#threediv{
-     display: flex;
+
+#threediv {
+    display: flex;
     overflow: scroll;
     width: auto;
     height: 500px;
     align-items: center;
-   
+
 
 }
-#threein{
+
+#threein {
     width: 720px;
     display: flex;
     gap: 25PX;
     margin-left: 20px;
     height: 400px;
-    
+
     background-color: wheat;
     border-radius: 10px;
     align-items: center;
 }
-#threein>div{
+
+#threein>div {
     width: 500px;
     height: 300PX;
     margin-left: 50px;
 }
-#threein>div>img{
-    width:100%;
+
+#threein>div>img {
+    width: 100%;
     height: 100%;
 
 }
-#threein>div>a{
+
+#threein>div>a {
     color: black;
 }
-#threediv>div:first-child{
-    background-color:  rgb(162, 129, 8);
+
+#threediv>div:first-child {
+    background-color: rgb(162, 129, 8);
 }
-#threediv>div:nth-child(2){
-background-color: rgb(204, 226, 198);
+
+#threediv>div:nth-child(2) {
+    background-color: rgb(204, 226, 198);
 }
-#threediv>div:nth-child(1){
-    background-color:rgb(238,230,196);
-    }
-    #threediv>div:nth-child(3){
-        background-color:rgb(241,225,221);
-        }
+
+#threediv>div:nth-child(1) {
+    background-color: rgb(238, 230, 196);
+}
+
+#threediv>div:nth-child(3) {
+    background-color: rgb(241, 225, 221);
+}
+
+#doctor {
+    display: flex;
+    height: 500px;
+    margin: auto;
+    align-items: center;
+
+}
+
+#indr {
+    width: 30%;
+
+    margin-left: 2.5%;
+    text-align: center;
+    height: 400px;
+}
+
+#indr>div>img {
+    width: 100%;
+    height: 100%;
+}
+
+#indr>div>a {
+    color: black;
+
+}
+
+#finda {
+    background-color:rgb(199, 220, 241);
+    height: 250px;
+    margin: auto;
+border: 1px solid rgb(199, 220, 241);
+    align-items: center;
+}
+#innfindr {
+    display: flex;
+    width: 70%;
+    margin: auto;
+
+    border-radius: 5px;
+    height: 130px;
+    margin-top: 4%;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+}
+
+#finda>div>h2 {
+    width: 33%;
+}
+
+#finda>div>div {
+    width: 33%;
+}
+
+#finda>div>button {
+    width: 20%;
+    background-color: white;
+    border: 1px solid black;
+    height: 40px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
