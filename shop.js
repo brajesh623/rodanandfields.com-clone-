@@ -1,7 +1,7 @@
-// import {mainnavbar,footer,lastbar} from './dashboard.js';
-// document.getElementById('nav').innerHTML=mainnavbar();
-// document.getElementById('footer').innerHTML=footer();
-// document.getElementById('lastbar').innerHTML=lastbar();
+import {mainnavbar,footer,lastbar} from './navbar.js';
+document.getElementById('mainnav').innerHTML=mainnavbar();
+document.getElementById('footer').innerHTML=footer();
+document.getElementById('lastbar').innerHTML=lastbar();
 
 let Regimen_products=document.getElementById('Regimen_products');
 
@@ -65,6 +65,26 @@ let Regimen=[
         value_price:201,
         rating:4.6,
         people_rated:723
+    },
+    {
+        image:"https://www.rodanandfields.com/en-us/medias/RVWA125-RVTG125-RVSS050-RVTTG50-REVERSE-Regimen-Explainer-570x570.png?context=bWFzdGVyfGltYWdlc3w0MTY5NHxpbWFnZS9wbmd8aW1hZ2VzL2gyNy9oZWIvMTM3NTgzODQzNDEwMjIucG5nfGI3NmIzMjI0NTc2Y2RiZjZlNTdhYjg0ZDM4ZjM0MmM2M2U5Yjg5Y2RiNTM1NTM1NGFlOWNiY2E5ZTVkYTM5NWY",
+        type:"Best Seller ",
+        title:"REVERSE Regimen",
+        desc:"Brightens + refines skin’s surface while tackling the look of fine lines + dark spots.",
+        retail_price:195,
+        value_price:245,
+        rating:4,
+        people_rated:1792
+    },
+    {
+        image:"https://www.rodanandfields.com/en-us/medias/UNWA125-UNTJ125-UNTT030-UNSS030-UNBLEMISH-Explainer-570x570.png?context=bWFzdGVyfGltYWdlc3w1NDk5N3xpbWFnZS9wbmd8aW1hZ2VzL2g2YS9oOTYvMTM3NTgzODQ4NjUzMTAucG5nfDNhOWMxMGU5MjIzMGEyZjNhNTZjNWVkMjUxYmJjODI5YmNlODhjODBkNzJjZTA4ZDk1YTk0Yzk0ZjkyNzdhZmU",
+        type:"Best Seller",
+        title:"UNBLEMISH Regimen",
+        desc:"Helps clear and prevent adult acne while visibly minimizing pores + fine lines.",
+        retail_price:190,
+        value_price:240,
+        rating:4.4,
+        people_rated:463
     }
 ];
 
@@ -72,6 +92,7 @@ Regimen.forEach((el)=>{
     let div=document.createElement("div");
     let img=document.createElement("img");
     img.src=el.image;
+    let content=document.createElement("div");
     let p1=document.createElement("p");
     p1.innerText=el.type;
     let h=document.createElement("h5");
@@ -82,6 +103,7 @@ Regimen.forEach((el)=>{
     p3.innerText=`$${el.retail_price} ($${el.value_price})`;
     let p4=document.createElement("p");
     p4.innerText=`Rating: ${el.rating} (${el.people_rated})`;
+    content.append(p1,h,p2,p3,p4);
     let button=document.createElement("button");
     button.innerText="ADD TO BAG"
     button.addEventListener("click",()=>{
@@ -89,7 +111,7 @@ Regimen.forEach((el)=>{
         addtobagstorage.push(el);
         localStorage.setItem("Userbag", JSON.stringify(addtobagstorage));
     })
-    div.append(img,p1,h,p2,p3,p4,button);
+    div.append(img,content,button);
     Regimen_products.append(div);
     
 })
@@ -222,6 +244,20 @@ let Regimen_Bundle=[
         desc:"This comprehensive anti-aging set visibly firms skin + eye contours and plumps lips.",
         retail_price:400,
         value_price:505,
+    },
+    {
+        image:"https://www.rodanandfields.com/en-us/medias/HSORGTRF-SOWA125-SOTT050-SOMO050-SOSS050-ENFM030-900x900-tablet-1.jpg?context=bWFzdGVyfGltYWdlc3wxMTAzNjF8aW1hZ2UvanBlZ3xpbWFnZXMvaGY3L2g5MS8xMzk3NzY1Nzc3MDAxNC5qcGd8ZDhkOGZhNDhhNjAwMTdjN2YxNmRhMjlkYjkzZmVjYzgyMTcwY2VhMmNlMjhlZDQ5NGJhMzExNWQxNjljYjM0Mg",
+        title:"SOOTHE + Total RF Serum Special ",
+        desc:"Save on our sensitive skin Regimen + our most comprehensive anti-aging serum.",
+        retail_price:323,
+        value_price:410,
+    },
+    {
+        image:"https://www.rodanandfields.com/en-us/medias/HRCRGTRF-720x600-desktop-1.jpg?context=bWFzdGVyfGltYWdlc3w3ODAwMXxpbWFnZS9qcGVnfGltYWdlcy9oNmYvaGE3LzEzOTc3NjU1NTc0NTU4LmpwZ3w3MjA1Y2RhNjE1N2VhNWFkN2U3ZDUyNmVkY2NkZWI5MWNhNzQ0N2QxN2U4ZjE1ODYxZDIxMmI1MzA1Y2UyZmEy",
+        title:"RECHARGE + Total RF Serum Special ",
+        desc:"Boost + lift, balance + tighten, defend + brighten! Recharge your complexion every day.",
+        retail_price:272,
+        value_price:309,
     }
 ];
 
@@ -229,12 +265,14 @@ Regimen_Bundle.forEach((el)=>{
     let div=document.createElement("div");
     let img=document.createElement("img");
     img.src=el.image;
+    let content=document.createElement("div");
     let h=document.createElement("h5");
     h.innerText=el.title;
     let p2=document.createElement("p");
     p2.innerText=el.desc;
     let p3=document.createElement("p");
     p3.innerText=`$${el.retail_price} ($${el.value_price})`;
+    content.append(h,p2,p3);
     let button=document.createElement("button");
     button.innerText="ADD TO BAG"
     button.addEventListener("click",()=>{
@@ -242,7 +280,7 @@ Regimen_Bundle.forEach((el)=>{
         addtobagstorage.push(el);
         localStorage.setItem("Userbag", JSON.stringify(addtobagstorage));
     })
-    div.append(img,h,p2,p3,button);
+    div.append(img,content,button);
     Regimen_bundle_products.append(div);
     
 })
