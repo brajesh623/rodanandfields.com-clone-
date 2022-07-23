@@ -1,0 +1,61 @@
+/* OTP CSS PART */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color:#f6ede7;
+
+  }
+  #submit {
+    width: 89%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: -3px;
+  }
+  input,
+  select {
+    display: block;
+    margin: 15px 0px;
+    font-size: 20px;
+    padding: 2%;
+    border-radius: 5px;
+  }
+  form {
+    width: 400px;
+    border: 1px solid teal;
+    margin: 3% auto;
+    padding: 3%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: lightgray;
+    border-radius: 5px;
+  }
+  h2{
+      margin-bottom: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  label{
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  button{
+      margin: auto;
+      margin-top: 20px;
+      width: 100px;
+      height: 30px;
+      border-radius: 5px;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #373737;
+      color: white;
+  }
+  img{
+    display: block;
+    margin: auto;
+    margin-bottom: -20px;
+    margin-top: 20px;
+}

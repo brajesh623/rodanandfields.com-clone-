@@ -1,0 +1,112 @@
+/* write css here */
+body{
+    background-color: #f6ede7;
+}
+#container{
+    width: 500px;
+    height: 550px;
+    border: 2px solid teal;
+    margin: auto;
+    background-color: lightgray;
+    border-radius: 20px;
+    padding-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#pro{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 50px; 
+}
+#one{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: #373737;
+}
+#set{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 450px;
+    height: 60px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.three{
+
+    border: 1px solid #373737;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #373737;
+    color: white;
+    cursor: pointer;
+}
+#contain{
+    width: 500px;
+    height: 550px;
+    border: 2px solid teal;
+    margin: auto;
+    border-radius: 20px;
+    padding-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: lightgray;
+}
+#failed{
+
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 50px; 
+    
+}
+#two{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+#image{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#six{
+
+    border: 1px solid #373737;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #373737;
+    color: white;
+    cursor: pointer;
+}
+#seven{
+
+    border: 1px solid #373737;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #373737;
+    color: white;
+    cursor: pointer;
+}
