@@ -35,11 +35,17 @@ img{
 }
 #Regimen_products,#Regimen_bundle_products{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     gap:30px;
 }
 #Regimen_products p, #Regimen_bundle_products p{
     font-size: 15px;
+}
+#Regimen_products>div>div {
+    height: 150px;
+}
+#Regimen_bundle_products>div>div{
+    height: 130px;
 }
 button{
     margin-top: 10px;
