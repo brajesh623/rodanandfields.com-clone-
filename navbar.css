@@ -1,25 +1,41 @@
-body{
+body {
     margin: 0%;
     padding: 0px;
-    font-family: ProximaNovaMedium,Arial,Sans-Serif;;
+    font-family: ProximaNovaMedium, Arial, Sans-Serif;
+    ;
 }
-#mainnav{
+
+#mainnav {
     height: 120px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
-#navbar{
+
+#navbar {
     margin: auto;
     width: 98%;
     display: flex;
     justify-content: space-between;
     height: 60px;
 }
-#navsp>img{
+
+#navbar>p>a,h2>a {
+    text-decoration: none;
+    color: black;
+}
+
+#navsp>img {
     width: 15px;
     height: 15px;
     align-items: center;
 }
-#navbarend{
+
+#navsp>a>img {
+    width: 15px;
+    height: 15px;
+    align-items: center;
+}
+
+#navbarend {
     width: 250px;
     display: flex;
     margin-top: 10px;
@@ -27,73 +43,86 @@ body{
     justify-content: space-between;
     text-decoration: none;
 }
-#navbarend>div{
+
+#navbarend>div {
     align-items: center;
 }
-#navbarend>div>a{
-text-decoration: none;  
-color: black;
-align-items: center;
+
+#navbarend>div>a {
+    text-decoration: none;
+    color: black;
+    align-items: center;
 
 }
-#navbarsecond{
+
+#navbarsecond {
     display: flex;
     width: 70%;
     margin: auto;
     text-decoration: none;
 }
-#navbarsecond>a{
+
+#navbarsecond>a {
     text-decoration: none;
-    color:black;
+    color: black;
     margin: auto;
 }
-#footer{
+
+#footer {
     display: flex;
     font-size: medium;
 
 }
 
-#onef{
+#onef {
     width: 20%;
     margin-left: 20px;
 }
-#onef>div{
+
+#onef>div {
     margin-top: 12px;
     gap: 20px;
 }
-#onef>div>a{
+
+#onef>div>a {
     text-decoration: none;
-    color:black;
-   
-    
-    
+    color: black;
+
+
+
 }
-#secf>div{
+
+#secf>div {
     margin-top: 12px;
     gap: 20px;
 }
-#secf{
+
+#secf {
     width: 20%;
     margin-left: 20px;
 }
-#secf>div>a{
+
+#secf>div>a {
     text-decoration: none;
-    color:black;
-   
-    
-    
+    color: black;
+
+
+
 }
-#thrf{
+
+#thrf {
     width: 60%;
 }
-#fimg>img{
+
+#fimg>img {
     width: 40px;
     height: 40px;
     margin-left: 30px;
 }
-#lastbar>a{
+
+#lastbar>a {
     text-decoration: none;
-    color:black;
+    color: black;
     margin-left: 10px;
-   
+
 }
