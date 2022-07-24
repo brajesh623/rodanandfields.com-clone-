@@ -1,7 +1,7 @@
 let mainnavbar=()=>{
     return ` <div id="navbar">
-    <p>FIND A CONSULT</p>
-    <H2>RODAN+FIELDS</H2>
+    <p>FIND A CONSULTANT</p>
+    <H2><a href="index.html">RODAN+FIELDS</a></H2>
     <div id="navbarend">
         <div>
             <span>Search</span>
@@ -32,11 +32,11 @@ let mainnavbar=()=>{
 <hr>
 <div id="navbarsecond">
     <a href="shop.html">SHOP</a>
-    <a href="">BEST SELLERS</a>
+    <a href="seller.html">BEST SELLERS</a>
     <a href="">FEATURED</a>
     <a href="">OUR STORY</a>
-    <a href="">PERKS PROGRAM</a>
-    <a href="">BECOME A CONSULTANT BLOG</a>
+    <a href="perks.html">PERKS PROGRAM</a>
+    <a href="blog.html">BECOME A CONSULTANT BLOG</a>
 
 </div>`
 }
