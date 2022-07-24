@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment failed</title>
+    <link rel="stylesheet" href="./success.css">
+</head>
+<body>
+    <img id="image" src="https://www.rodanandfields.com/en-us/medias/rf-logo.svg?context=bWFzdGVyfGltYWdlc3w3MzczfGltYWdlL3N2Zyt4bWx8aW1hZ2VzL2g2MC9oYWIvODgyMjE0NzE4NjcxOC5zdmd8YjNmMmU2YTg5MTM0NTMzM2Y2ODg2ZmRkZTJhNmY2OWZhYmYyYjk5NWQxODkxODFiYjVkY2MxY2NjOWRlMzA5OA" alt="No Image Found">
+    <div id="contain">
+        <img id="failed" src="https://www.flipchap.com/images/payment/alert.gif" alt="No Image Found">
+        <p id="two">Payment failed</p>
+        <div id="set">
+            <div id="six">Try Again</div>
+            <div id="seven">Continue Shopping</div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+
+    document.querySelector("#six").addEventListener("click", Try);
+    document.querySelector("#seven").addEventListener("click", Continue);
+
+    function Try(){
+
+        window.location.href= "paycard.html"
+
+    }
+    function Continue(){
+
+        window.location.href= "index.html"
+
+    }
+</script>

@@ -1,4 +1,12 @@
-data = [
+import {mainnavbar,footer,lastbar} from "./navbar.js"
+document.getElementById("mainnav").innerHTML=mainnavbar();
+document.getElementById("footer").innerHTML=footer();
+document.getElementById("lastbar").innerHTML=lastbar();
+
+
+
+
+let data = [
   {
     src: 'https://www.rodanandfields.com/en-us/medias/ENHLSH01-Regimen-Explainer-R-F-Lash-Boost-570x570-Desktop.png?context=bWFzdGVyfGltYWdlc3wxMDc0OHxpbWFnZS9wbmd8aW1hZ2VzL2hmMS9oYWMvMTQ1MzIwNDI1ODgxOTAucG5nfDQyNTQ0OGUzYmMwZTJkM2YzNzE1MjE2NzQ1M2YxMWQ5M2E3ZWQ2MjAwMDA3MzFmNjQyOWUwNDU3OWZmMTkzZDY',
     label: 'Best Seller',
