@@ -1,6 +1,6 @@
 let mainnavbar=()=>{
     return ` <div id="navbar">
-    <p>FIND A CONSULTANT</p>
+    <p> <a href="consultant.html">FIND A CONSULTANT</a></p>
     <H2><a href="index.html">RODAN+FIELDS</a></H2>
     <div id="navbarend">
         <div>
