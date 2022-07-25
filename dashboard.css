@@ -23,6 +23,11 @@ body {
     align-items: center;
 }
 
+#navbar>p>a,h2>a {
+    text-decoration: none;
+    color: black;
+}
+
 #navbarend {
     width: 250px;
     display: flex;
